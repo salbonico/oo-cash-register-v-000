@@ -19,7 +19,8 @@ self.total += price*quantity
 end
 
 def apply_discount
-reduced_price = self.total * (@discount/100.0)
+money_off = self.total * (@discount/100.0)
+self.total -= money_off
 
 end
 
