@@ -31,4 +31,9 @@ self.total -= money_off
 return "After the discount, the total comes to $#{@total.to_i}."
 end
 
+def items
+  @items
+end
+
+
 end
