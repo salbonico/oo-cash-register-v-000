@@ -3,7 +3,7 @@ class CashRegister
 
 attr_reader :total
 
-def initialization
+def initialize
   @total = 0
 end
 
