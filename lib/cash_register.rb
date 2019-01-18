@@ -21,7 +21,7 @@ end
 def apply_discount
 
 if @discount == 0
-  puts "There is no discount to apply."
+  return "There is no discount to apply."
 end
 
 money_off = self.total * (@discount/100.0)
