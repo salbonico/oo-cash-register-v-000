@@ -21,7 +21,7 @@ end
 def apply_discount
 money_off = self.total * (@discount/100.0)
 self.total -= money_off
-return "After the discount, the total comes to #{self.total}."
+return "After the discount, the total comes to $#{self.total}."
 end
 
 end
