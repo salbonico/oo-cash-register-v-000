@@ -18,5 +18,9 @@ def add_item(title, price, quantity = 1)
 self.total += price*quantity
 end
 
+def apply_discount
+reduced_price = self.total * (@discount/100.0)
+
+end
 
 end
